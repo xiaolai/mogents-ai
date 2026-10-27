@@ -7,6 +7,8 @@ Native macOS chat workspace for persistent tmux agents, with an integrated local
 Requires macOS 14(Sonoma) or later. The app includes Apple Silicon and Intel code.
 
 ```sh
+brew tap xiaolai/tap
+brew trust --cask xiaolai/tap/mogents-ai
 brew install --cask xiaolai/tap/mogents-ai
 ```
 
